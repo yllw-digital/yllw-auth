@@ -23,6 +23,7 @@ class InstallYllwAuth extends GeneratorCommand {
 
     protected function installPassport() {
         $this->call('passport:install');
+        $this->call('migrate');
         $this->info("Installed passport.");
         return true;
     }
