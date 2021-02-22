@@ -1,0 +1,34 @@
+{
+    "name": "yllw-digital/yllw-auth",
+    "description": "Authentication package for Laravel",
+    "authors": [
+        {
+            "name": "Andy Abi Haidar",
+            "email": "andy@yllw.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YllwDigital\\YllwAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YllwDigital\\YllwAuth\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YllwDigital\\YllwAuth\\YllwAuthServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^6.13"
+    },
+    "require": {
+        "laravel/passport": "^10.1"
+    }
+}
