@@ -1,6 +1,6 @@
 <?php
 
-namespace YllwDigital\YllwAuth\Http\Traits;
+namespace YllwDigital\YllwAuth\app\Http\Traits;
 
 use Hash;
 

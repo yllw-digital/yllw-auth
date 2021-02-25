@@ -1,6 +1,6 @@
 <?php
 
-namespace YllwDigital\YllwAuth\Http\Controllers;
+namespace YllwDigital\YllwAuth\app\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

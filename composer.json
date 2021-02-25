@@ -21,7 +21,9 @@
         "laravel": {
             "providers": [
                 "YllwDigital\\YllwAuth\\YllwAuthServiceProvider"
-            ]
+            ],
+            "aliases": {
+            }
         }
     },
     "require-dev": {
