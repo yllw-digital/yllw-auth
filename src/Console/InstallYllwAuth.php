@@ -11,7 +11,7 @@ class InstallYllwAuth extends GeneratorCommand {
     protected $description = "Install the yllw auth package.";
 
     protected $passportTrait = "Laravel\Passport\HasApiTokens";
-    protected $yllwAuthenticatable = "YllwDigital\YllwAuth\Http\Traits\YllwAuthenticatable";
+    protected $yllwAuthenticatable = "YllwDigital\YllwAuth\app\Http\Traits\YllwAuthenticatable";
 
     public function handle() {
         $this->info("Installing the yllw auth package");

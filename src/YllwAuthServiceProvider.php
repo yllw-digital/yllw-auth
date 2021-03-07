@@ -13,7 +13,7 @@ use YllwDigital\YllwAuth\app\Services\RegisterService;
 
 class YllwAuthServiceProvider extends ServiceProvider {
     protected $configRoute = __DIR__.'/config/config.php';
-    protected $apiRoute    = __DIR__.'/../routes/api.php';
+    // protected $apiRoute    = __DIR__.'/../routes/api.php';
 
     public function boot() {
         $this->registerRoutes();
@@ -27,9 +27,9 @@ class YllwAuthServiceProvider extends ServiceProvider {
     }
 
     protected function registerRoutes() {
-        Route::group($this->routeConfiguration(), function() {
-            $this->loadRoutesFrom($this->apiRoute);
-        });
+        // Route::group($this->routeConfiguration(), function() {
+        //     $this->loadRoutesFrom($this->apiRoute);
+        // });
     }
 
     protected function routeConfiguration() {
